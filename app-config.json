@@ -1,0 +1,79 @@
+{
+  "appName": "CycleCipher",
+  "appId": "id6816656463",
+  "appUrl": "https://apps.apple.com/us/app/cyclecipher-period-tracker/id6816656463",
+  "universalAppUrl": "https://apps.apple.com/app/cyclecipher-period-tracker/id6816656463",
+  "logoPath": "assets/cyclecipher-logo.jpg",
+  "tagline": "The intelligent menstrual & cycle tracker where your body data stays strictly yours.",
+  "elevatorPitch": "CycleCipher is the world’s first truly private, Zero-Knowledge menstrual and symptom tracker. It gives women pinpoint cycle and ovulation predictions while mathematically sealing their intimate health data on their device with military-grade AES-256 encryption. No ads, no data selling, and no predatory monthly subscriptions.",
+  "keyFeatures": [
+    "100% Zero-Knowledge Privacy: Sealed locally on iPhone (Secure Enclave) with military-grade AES-256 encryption. Nobody can access it — not even the developers.",
+    "Zero Ads & Zero Tracking: No third-party ad networks, no Meta/Google trackers, no data brokers. Ever.",
+    "Pinpoint Cycle & Ovulation Forecasting: Real-time biological phase tracking (Menstrual, Follicular, Ovulatory, Luteal) & adaptive statistical modeling that filters out irregular outlier cycles.",
+    "Smart Body Pattern Recognition: On-device correlation engine linking cramps, mood swings, headaches, bloating, and energy levels.",
+    "2-Second Quick Symptom & Mood Logging: Frictionless logging of flow intensity, physical symptoms, emotions, and intimacy notes.",
+    "Discreet Mode & Biometric Lock: Face ID / Touch ID lock + neutral disguised lock-screen notifications.",
+    "Clinically Referenced: Grounded in verified clinical guidelines from ACOG, NHS UK, and Mayo Clinic.",
+    "No Subscription Trap: 30-Day Full-Access Free Trial, then a single €9.99 / $8.99 Lifetime Access purchase (instead of $40-$60/year subscriptions)."
+  ],
+  "angles": [
+    {
+      "name": "Privacy Advocates (Anti-Data-Brokers)",
+      "hook": "Did you know most period apps sell your intimate health data to advertisers?",
+      "message": "Stop letting period apps sell your most intimate data. Switch to 100% Zero-Knowledge AES-256 encryption on your iPhone."
+    },
+    {
+      "name": "Subscription-Fatigued Women ($8.99 / €9.99 Lifetime vs $50/yr)",
+      "hook": "Tired of paying $50/year subscriptions just to track your own body?",
+      "message": "CycleCipher gives you a 30-day free trial and a one-time $8.99 / €9.99 Lifetime Access option. Zero ads, zero subscriptions."
+    },
+    {
+      "name": "Smart Patterns & Total Discretion (Face ID + Discreet Alerts)",
+      "hook": "Uncover the hidden links between your cramps, mood swings, and energy levels — in complete privacy.",
+      "message": "Keep your cycle totally private with Face ID lock, disguised lock-screen notifications, and clinically referenced insights (ACOG, NHS, Mayo Clinic)."
+    }
+  ],
+  "buzzwords": [
+    "Mathematically sealed on your device",
+    "Zero-Knowledge: Even we can't see your data",
+    "Your cycle, your health, uncompromised privacy",
+    "Track your body without being tracked",
+    "One-time purchase, no subscription traps"
+  ],
+  "searchKeywords": [
+    "private period tracker",
+    "period tracker privacy",
+    "period app selling data",
+    "cycle tracker no subscription",
+    "flo app alternative",
+    "clue app subscription",
+    "encrypted period tracker",
+    "period tracker app ios"
+  ],
+  "subreddits": [
+    "privacy",
+    "degoogle",
+    "Periods",
+    "TwoXChromosomes",
+    "TheGirlSurvivalGuide",
+    "WomensHealth",
+    "PMDD",
+    "iosapps",
+    "apple",
+    "TryingForABaby"
+  ],
+  "globalMarkets": [
+    { "country": "United States & UK", "code": "us", "lang": "English" },
+    { "country": "Nederland & België", "code": "nl", "lang": "Nederlands" },
+    { "country": "Deutschland, Österreich & Schweiz", "code": "de", "lang": "Deutsch" },
+    { "country": "France & Belgique", "code": "fr", "lang": "Français" },
+    { "country": "España & Latinoamérica", "code": "es", "lang": "Español" },
+    { "country": "Canada & Australia", "code": "ca", "lang": "English" },
+    { "country": "Sverige, Norge & Danmark", "code": "se", "lang": "Svenska / English" },
+    { "country": "Italia", "code": "it", "lang": "Italiano" },
+    { "country": "Brasil & Portugal", "code": "br", "lang": "Português" },
+    { "country": "Japan (日本)", "code": "jp", "lang": "日本語" }
+  ],
+  "autoPostBluesky": true,
+  "updateSeoLandingPage": true
+}

@@ -1,0 +1,5 @@
+[build]
+  publish = "docs"
+
+[functions]
+  node_bundler = "esbuild"

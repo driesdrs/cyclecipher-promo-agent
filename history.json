@@ -1,0 +1,20 @@
+{
+  "seenPostUrls": [
+    "https://news.abolish.capital/post/90223",
+    "https://lemmy.world/post/53451264",
+    "https://news.abolish.capital/post/84935"
+  ],
+  "pastTopics": [
+    "Privacy Advocates (Anti-Data-Brokers) — Did you know most period apps sell your intimate health data to advertisers?"
+  ],
+  "runs": [
+    {
+      "date": "2026-11-06T19:18:52.233Z",
+      "topic": "Privacy Advocates (Anti-Data-Brokers) — Did you know most period apps sell your intimate health data to advertisers?",
+      "angle": "Privacy Advocates (Anti-Data-Brokers)",
+      "market": "United States & UK",
+      "leadsFound": 3,
+      "blueskyPosted": false
+    }
+  ]
+}

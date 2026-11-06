@@ -1,0 +1,45 @@
+name: Daily CycleCipher Promo Agent
+
+on:
+  # Draait elke dag om 08:00 uur Nederlandse/Belgische tijd (07:00 UTC wintertijd / 06:00 UTC zomertijd)
+  schedule:
+    - cron: "0 7 * * *"
+  # Hiermee kun je de agent ook altijd handmatig met 1 klik starten onder het tabblad 'Actions'
+  workflow_dispatch:
+
+permissions:
+  contents: write # Nodig om history.json en de SEO-pagina (docs/) bij te werken
+  models: read    # Geeft GRATIS toegang tot GitHub Models (GPT-4o-mini) zonder Google-tokens!
+
+jobs:
+  run-promo-agent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Run CycleCipher Promo Agent
+        env:
+          # Gebruikt automatisch het ingebouwde gratis GITHUB_TOKEN voor GitHub Models!
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          REPORT_EMAIL_TO: ${{ secrets.REPORT_EMAIL_TO }}
+          # Optioneel voor 100% automatisch posten (inclusief CycleCipher logo & App Store link-kaart):
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+          MASTODON_INSTANCE_URL: ${{ secrets.MASTODON_INSTANCE_URL }}
+          MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+        run: node agent.mjs
+
+      - name: Save agent memory & daily SEO landing page
+        run: |
+          git config user.name "CycleCipher Promo Agent"
+          git config user.email "actions@github.com"
+          git add history.json docs/
+          git diff --staged --quiet || git commit -m "chore: daily CycleCipher promo & SEO update [skip ci]"
+          git push

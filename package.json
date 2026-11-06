@@ -1,0 +1,14 @@
+{
+  "name": "cyclecipher-promo-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node agent.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0",
+    "@netlify/functions": "^3.0.0",
+    "openai": "^4.86.0"
+  }
+}
