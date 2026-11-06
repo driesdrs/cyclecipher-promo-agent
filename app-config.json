@@ -1,79 +1,71 @@
 {
   "appName": "CycleCipher",
   "appId": "id6816656463",
+  "numericAppId": "6816656463",
+  "siteDomain": "cyclecipher-app.netlify.app",
+  "siteUrl": "https://cyclecipher-app.netlify.app",
   "appUrl": "https://apps.apple.com/us/app/cyclecipher-period-tracker/id6816656463",
-  "universalAppUrl": "https://apps.apple.com/app/cyclecipher-period-tracker/id6816656463",
-  "logoPath": "assets/cyclecipher-logo.jpg",
+  "logoUrl": "https://cyclecipher-app.netlify.app/cyclecipher-logo.jpg",
+  "indexNowKey": "c8f4a2e9b1d74e63a9c0f5b2d8e147a6",
   "tagline": "The intelligent menstrual & cycle tracker where your body data stays strictly yours.",
-  "elevatorPitch": "CycleCipher is the world’s first truly private, Zero-Knowledge menstrual and symptom tracker. It gives women pinpoint cycle and ovulation predictions while mathematically sealing their intimate health data on their device with military-grade AES-256 encryption. No ads, no data selling, and no predatory monthly subscriptions.",
+  "elevatorPitch": "CycleCipher is the world’s first truly private, Zero-Knowledge menstrual and symptom tracker for iPhone. It gives women pinpoint cycle and ovulation predictions while mathematically sealing their intimate health data on their device with military-grade AES-256 encryption. No ads, no data selling, and no predatory monthly subscriptions.",
   "keyFeatures": [
-    "100% Zero-Knowledge Privacy: Sealed locally on iPhone (Secure Enclave) with military-grade AES-256 encryption. Nobody can access it — not even the developers.",
-    "Zero Ads & Zero Tracking: No third-party ad networks, no Meta/Google trackers, no data brokers. Ever.",
-    "Pinpoint Cycle & Ovulation Forecasting: Real-time biological phase tracking (Menstrual, Follicular, Ovulatory, Luteal) & adaptive statistical modeling that filters out irregular outlier cycles.",
+    "100% Zero-Knowledge Privacy: Sealed locally in your iPhone Secure Enclave with military-grade AES-256 encryption. Nobody — not even the developers — can access your records.",
+    "Zero Ads & Zero Tracking: No third-party ad networks, no Meta/Google SDK trackers, no data brokers.",
+    "Pinpoint Cycle & Ovulation Forecasting: Real-time biological phase tracking (Menstrual, Follicular, Ovulatory, Luteal) with adaptive statistical modeling.",
     "Smart Body Pattern Recognition: On-device correlation engine linking cramps, mood swings, headaches, bloating, and energy levels.",
-    "2-Second Quick Symptom & Mood Logging: Frictionless logging of flow intensity, physical symptoms, emotions, and intimacy notes.",
-    "Discreet Mode & Biometric Lock: Face ID / Touch ID lock + neutral disguised lock-screen notifications.",
+    "Discreet Mode & Face ID Lock: Biometric lock + disguised neutral lock-screen notifications.",
     "Clinically Referenced: Grounded in verified clinical guidelines from ACOG, NHS UK, and Mayo Clinic.",
-    "No Subscription Trap: 30-Day Full-Access Free Trial, then a single €9.99 / $8.99 Lifetime Access purchase (instead of $40-$60/year subscriptions)."
+    "No Monthly Subscription Traps: 30-Day Full-Access Free Trial, then a single €9.99 / $8.99 Lifetime purchase instead of $50/year subscriptions."
   ],
-  "angles": [
-    {
-      "name": "Privacy Advocates (Anti-Data-Brokers)",
-      "hook": "Did you know most period apps sell your intimate health data to advertisers?",
-      "message": "Stop letting period apps sell your most intimate data. Switch to 100% Zero-Knowledge AES-256 encryption on your iPhone."
-    },
-    {
-      "name": "Subscription-Fatigued Women ($8.99 / €9.99 Lifetime vs $50/yr)",
-      "hook": "Tired of paying $50/year subscriptions just to track your own body?",
-      "message": "CycleCipher gives you a 30-day free trial and a one-time $8.99 / €9.99 Lifetime Access option. Zero ads, zero subscriptions."
-    },
-    {
-      "name": "Smart Patterns & Total Discretion (Face ID + Discreet Alerts)",
-      "hook": "Uncover the hidden links between your cramps, mood swings, and energy levels — in complete privacy.",
-      "message": "Keep your cycle totally private with Face ID lock, disguised lock-screen notifications, and clinically referenced insights (ACOG, NHS, Mayo Clinic)."
-    }
-  ],
-  "buzzwords": [
-    "Mathematically sealed on your device",
-    "Zero-Knowledge: Even we can't see your data",
-    "Your cycle, your health, uncompromised privacy",
-    "Track your body without being tracked",
-    "One-time purchase, no subscription traps"
-  ],
-  "searchKeywords": [
-    "private period tracker",
-    "period tracker privacy",
-    "period app selling data",
-    "cycle tracker no subscription",
-    "flo app alternative",
-    "clue app subscription",
-    "encrypted period tracker",
-    "period tracker app ios"
-  ],
-  "subreddits": [
-    "privacy",
-    "degoogle",
-    "Periods",
-    "TwoXChromosomes",
-    "TheGirlSurvivalGuide",
-    "WomensHealth",
-    "PMDD",
-    "iosapps",
-    "apple",
-    "TryingForABaby"
+  "seoThemes": [
+    "Private Period Tracker Without Ads or Data Selling",
+    "Best Period & Ovulation Tracker Without Monthly Subscription (Lifetime Access)",
+    "Zero-Knowledge Encrypted Menstrual Tracker Alternative to Mainstream Apps",
+    "Discreet Period Tracker with Face ID Lock & Neutral Notifications",
+    "Smart Cycle Phase & PMS Symptom Pattern Tracker for iPhone",
+    "Clinically Referenced Ovulation & Fertile Window Calculator with 100% Local Privacy"
   ],
   "globalMarkets": [
-    { "country": "United States & UK", "code": "us", "lang": "English" },
-    { "country": "Nederland & België", "code": "nl", "lang": "Nederlands" },
-    { "country": "Deutschland, Österreich & Schweiz", "code": "de", "lang": "Deutsch" },
-    { "country": "France & Belgique", "code": "fr", "lang": "Français" },
-    { "country": "España & Latinoamérica", "code": "es", "lang": "Español" },
-    { "country": "Canada & Australia", "code": "ca", "lang": "English" },
-    { "country": "Sverige, Norge & Danmark", "code": "se", "lang": "Svenska / English" },
-    { "country": "Italia", "code": "it", "lang": "Italiano" },
-    { "country": "Brasil & Portugal", "code": "br", "lang": "Português" },
-    { "country": "Japan (日本)", "code": "jp", "lang": "日本語" }
-  ],
-  "autoPostBluesky": true,
-  "updateSeoLandingPage": true
+    { "country": "United States", "code": "us", "lang": "English", "locale": "en-US", "flag": "🇺🇸" },
+    { "country": "Nederland", "code": "nl", "lang": "Nederlands", "locale": "nl-NL", "flag": "🇳🇱" },
+    { "country": "Deutschland", "code": "de", "lang": "Deutsch", "locale": "de-DE", "flag": "🇩🇪" },
+    { "country": "United Kingdom", "code": "gb", "lang": "English", "locale": "en-GB", "flag": "🇬🇧" },
+    { "country": "France", "code": "fr", "lang": "Français", "locale": "fr-FR", "flag": "🇫🇷" },
+    { "country": "España", "code": "es", "lang": "Español", "locale": "es-ES", "flag": "🇪🇸" },
+    { "country": "België / Belgique", "code": "be", "lang": "Nederlands", "locale": "nl-BE", "flag": "🇧🇪" },
+    { "country": "Canada", "code": "ca", "lang": "English", "locale": "en-CA", "flag": "🇨🇦" },
+    { "country": "Australia", "code": "au", "lang": "English", "locale": "en-AU", "flag": "🇦🇺" },
+    { "country": "Italia", "code": "it", "lang": "Italiano", "locale": "it-IT", "flag": "🇮🇹" },
+    { "country": "Österreich", "code": "at", "lang": "Deutsch", "locale": "de-AT", "flag": "🇦🇹" },
+    { "country": "Schweiz / Suisse", "code": "ch", "lang": "Deutsch", "locale": "de-CH", "flag": "🇨🇭" },
+    { "country": "Sverige", "code": "se", "lang": "Svenska", "locale": "sv-SE", "flag": "🇸🇪" },
+    { "country": "Norge", "code": "no", "lang": "Norsk", "locale": "nb-NO", "flag": "🇳🇴" },
+    { "country": "Danmark", "code": "dk", "lang": "Dansk", "locale": "da-DK", "flag": "🇩🇰" },
+    { "country": "Suomi", "code": "fi", "lang": "Suomi", "locale": "fi-FI", "flag": "🇫🇮" },
+    { "country": "Portugal", "code": "pt", "lang": "Português", "locale": "pt-PT", "flag": "🇵🇹" },
+    { "country": "Brasil", "code": "br", "lang": "Português", "locale": "pt-BR", "flag": "🇧🇷" },
+    { "country": "México", "code": "mx", "lang": "Español", "locale": "es-MX", "flag": "🇲🇽" },
+    { "country": "日本 (Japan)", "code": "jp", "lang": "日本語", "locale": "ja-JP", "flag": "🇯🇵" },
+    { "country": "대한민국 (South Korea)", "code": "kr", "lang": "한국어", "locale": "ko-KR", "flag": "🇰🇷" },
+    { "country": "Polska", "code": "pl", "lang": "Polski", "locale": "pl-PL", "flag": "🇵🇱" },
+    { "country": "Ireland", "code": "ie", "lang": "English", "locale": "en-IE", "flag": "🇮🇪" },
+    { "country": "New Zealand", "code": "nz", "lang": "English", "locale": "en-NZ", "flag": "🇳🇿" },
+    { "country": "Singapore", "code": "sg", "lang": "English", "locale": "en-SG", "flag": "🇸🇬" },
+    { "country": "台灣 (Taiwan)", "code": "tw", "lang": "繁體中文", "locale": "zh-TW", "flag": "🇹🇼" },
+    { "country": "香港 (Hong Kong)", "code": "hk", "lang": "繁體中文", "locale": "zh-HK", "flag": "🇭🇰" },
+    { "country": "Česko", "code": "cz", "lang": "Čeština", "locale": "cs-CZ", "flag": "🇨🇿" },
+    { "country": "România", "code": "ro", "lang": "Română", "locale": "ro-RO", "flag": "🇷🇴" },
+    { "country": "Ελλάδα (Greece)", "code": "gr", "lang": "Ελληνικά", "locale": "el-GR", "flag": "🇬🇷" },
+    { "country": "Magyarország", "code": "hu", "lang": "Magyar", "locale": "hu-HU", "flag": "🇭🇺" },
+    { "country": "Türkiye", "code": "tr", "lang": "Türkçe", "locale": "tr-TR", "flag": "🇹🇷" },
+    { "country": "Argentina", "code": "ar", "lang": "Español", "locale": "es-AR", "flag": "🇦🇷" },
+    { "country": "Chile", "code": "cl", "lang": "Español", "locale": "es-CL", "flag": "🇨🇱" },
+    { "country": "Colombia", "code": "co", "lang": "Español", "locale": "es-CO", "flag": "🇨🇴" },
+    { "country": "India", "code": "in", "lang": "English", "locale": "en-IN", "flag": "🇮🇳" },
+    { "country": "South Africa", "code": "za", "lang": "English", "locale": "en-ZA", "flag": "🇿🇦" },
+    { "country": "United Arab Emirates", "code": "ae", "lang": "English", "locale": "en-AE", "flag": "🇦🇪" },
+    { "country": "Israel", "code": "il", "lang": "English", "locale": "en-IL", "flag": "🇮🇱" },
+    { "country": "Malaysia", "code": "my", "lang": "English", "locale": "en-MY", "flag": "🇲🇾" }
+  ]
 }
